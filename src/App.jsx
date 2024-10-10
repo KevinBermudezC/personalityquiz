@@ -28,12 +28,11 @@ function App() {
     Air: "air",
   };
   const elements = {
-    "Red 🔴,🌞": "Fire",
+    "Red 🔴": "Fire",
     "Blue 🔵": "Water",
     "Green 🟢": "Earth",
     "Yellow 🟡": "Air",
 
-    // Continue mapping all your possible options to a keyword
   };
 
   async function fetchArtwork(keyword) {
